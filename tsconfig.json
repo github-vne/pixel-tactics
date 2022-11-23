@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"useDefineForClassFields": true,
+		"skipLibCheck": true,
+		"noEmit": true,
+		"baseUrl": "./src",
+		"module": "es2020",
+		"moduleResolution": "node",
+		"target": "es2017",
+		"lib": ["ES2019", "DOM", "DOM.Iterable"],
+		"jsx": "react",
+		"incremental": true,
+		"allowJs": false,
+		"strict": true,
+		"resolveJsonModule": true,
+		"preserveConstEnums": true,
+		"noErrorTruncation": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"noFallthroughCasesInSwitch": true,
+		"noEmitOnError": true,
+		"allowUnreachableCode": false,
+		"forceConsistentCasingInFileNames": true,
+		"importsNotUsedAsValues": "preserve",
+		"importHelpers": true,
+		"useUnknownInCatchVariables": false
+	},
+	"include": ["src", "src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"],
+	"exclude": ["node_modules", "vite.config.ts"]
+}

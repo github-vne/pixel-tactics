@@ -1,0 +1,1 @@
+export { DeadCard } from "./DeadCard";

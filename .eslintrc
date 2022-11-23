@@ -1,0 +1,17 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"settings": {
+		"react": {"version": "detect"}
+	},
+	"plugins": ["@typescript-eslint"],
+	"extends": [
+		"./config/eslint/import.js",
+		"./config/eslint/base.js",
+		"./config/eslint/typescript.js",
+		"./config/eslint/react.js",
+		"./config/eslint/hooks.js",
+		"./config/eslint/a11y.js",
+		"./config/eslint/css.js"
+	]
+}
